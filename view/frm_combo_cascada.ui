@@ -66,7 +66,7 @@
      <string>SELECCIONAR GÉNERO:</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="cbogenero">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -89,7 +89,7 @@
      <string>SELECCIONAR NOMBRE:</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_2">
+   <widget class="QComboBox" name="cbonombres">
     <property name="geometry">
      <rect>
       <x>20</x>

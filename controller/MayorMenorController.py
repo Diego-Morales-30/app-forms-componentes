@@ -11,10 +11,10 @@ class MayorMenorController:
     def onclickbtncalcular(self):
         resultado = 0
         try:
-            n1 = int (self.ventana.txtnumero1.txt())
-            n2= int (self.ventana.txtnumero2.txt())
-            n3 = int (self.ventana.txtnumero3.txt())
-            n4 = int (self.ventana.txtnumero4.txt())
+            n1 = int (self.ventana.txtnumero1.text())
+            n2= int (self.ventana.txtnumero2.text())
+            n3 = int (self.ventana.txtnumero3.text())
+            n4 = int (self.ventana.txtnumero4.text())
             if self.ventana.rbmayor.isChecked():
                 resultado = MayorMenorService.mayor(n1, n2, n3, n4)
             elif self.ventana.rbmenor.isChecked():
